@@ -1,0 +1,43 @@
+/* Patient Queue Specific Styles */
+.patient-card {
+    border-left: 4px solid transparent;
+    transition: all 0.2s;
+}
+
+.patient-card.urgent {
+    border-left-color: #dc2626;
+    background: #fef2f2;
+}
+
+.patient-info h3 {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.patient-info p {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-bottom: 4px;
+}
+
+.priority-urgent {
+    color: #dc2626;
+    font-weight: 600;
+}
+
+.recommendations {
+    background: #f3f4f6;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.recommendation-tag {
+    display: inline-block;
+    background: #3b82f6;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    margin: 2px;
+}
